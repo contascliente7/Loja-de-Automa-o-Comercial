@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 460" width="400" height="460">
+  <defs>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f7fa"/>
+      <stop offset="45%" stop-color="#c7cdd6"/>
+      <stop offset="55%" stop-color="#9aa3b0"/>
+      <stop offset="100%" stop-color="#e8ebf0"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d8bfd"/>
+      <stop offset="100%" stop-color="#0b3d91"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9d3d"/>
+      <stop offset="100%" stop-color="#c85a00"/>
+    </linearGradient>
+    <linearGradient id="textSteel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#aab2bd"/>
+      <stop offset="100%" stop-color="#7b8291"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gears -->
+  <g opacity="0.95">
+    <path fill="url(#orangeGrad)" d="M100 210 l-28 6 -2 26 24 12 4 28 26 8 16 -22 28 2 14 -24 26 -6 2 -26 -24 -12 -4 -28 -26 -8 -16 22 -28 -2 z" transform="translate(0,0) scale(1)"/>
+  </g>
+  <g opacity="0.95">
+    <path fill="url(#blueGrad)" d="M300 210 l28 6 2 26 -24 12 -4 28 -26 8 -16 -22 -28 2 -14 -24 -26 -6 -2 -26 24 -12 4 -28 26 -8 16 22 28 -2 z"/>
+  </g>
+
+  <!-- Shield -->
+  <path d="M200 40 L320 85 V220 C320 300 270 355 200 385 C130 355 80 300 80 220 V85 Z"
+        fill="none" stroke="url(#steel)" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M200 60 L300 98 V218 C300 288 258 335 200 362 C142 335 100 288 100 218 V98 Z"
+        fill="#0a1628"/>
+
+  <!-- Blue half -->
+  <path d="M200 70 L200 355 C150 328 112 282 112 218 V102 Z" fill="url(#blueGrad)" opacity="0.55"/>
+  <!-- Orange half -->
+  <path d="M200 70 L200 355 C250 328 288 282 288 218 V102 Z" fill="url(#orangeGrad)" opacity="0.35"/>
+
+  <!-- Lightning bolt -->
+  <path d="M235 65 L165 210 L200 210 L170 340 L260 175 L215 175 Z"
+        fill="url(#steel)" stroke="#5a6270" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Scale icon at base -->
+  <g transform="translate(160,255)">
+    <rect x="0" y="35" width="80" height="14" rx="3" fill="url(#steel)"/>
+    <rect x="34" y="10" width="12" height="28" fill="url(#steel)"/>
+    <rect x="10" y="0" width="60" height="12" rx="3" fill="url(#steel)"/>
+    <circle cx="40" cy="6" r="4" fill="#0a1628"/>
+  </g>
+
+  <!-- Text HARDTECH -->
+  <text x="200" y="425" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="56" fill="url(#textSteel)" letter-spacing="2">HARDTECH</text>
+  <text x="200" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="15" fill="#8fa3c9" letter-spacing="1.5">SUPORTE DE EQUIPAMENTOS E BALANÇAS</text>
+</svg>
